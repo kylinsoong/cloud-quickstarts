@@ -5,6 +5,11 @@
 |===
 |ID |TITLE |CERTIFICATION |DATE
 
+|07
+|Microsoft Certified: Azure AI Engineer Associate
+|link:https://learn.microsoft.com/api/credentials/share/en-us/KylinSONG-8877/9EFA97B40C236D8A?sharingId=282BB7DDDECBAB3[link]
+|2024-12-07
+
 |06
 |Microsoft Certified: Azure AI Fundamentals
 |link:https://learn.microsoft.com/en-us/users/kylinsong-8877/credentials/b5793701a9f0f943[link]

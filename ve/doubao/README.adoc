@@ -6,6 +6,12 @@
 [source, bash]
 .*1. Set API Key*
 ----
+export ARK_API_KEY="YOUR_API_KEY"
+----
+
+[source, bash]
+.*2. Install SDK*
+----
 pip install --upgrade 'volcengine-python-sdk[ark]'
 ----
 

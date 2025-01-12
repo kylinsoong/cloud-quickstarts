@@ -7,7 +7,7 @@ client = Ark(
 # Non-streaming:
 print("----- standard request -----")
 completion = client.chat.completions.create(
-    model="ep-20241223161354-cdgdg",
+    model="",
     messages = [
         {"role": "system", "content": "你是豆包，是由字节跳动开发的 AI 人工智能助手"},
         {"role": "user", "content": "目前排名前十的大模型有哪些？"},
@@ -18,7 +18,7 @@ print(completion.choices[0].message.content)
 # Streaming:
 print("----- streaming request -----")
 stream = client.chat.completions.create(
-    model="ep-20241223161354-cdgdg",
+    model="",
     messages = [
         {"role": "system", "content": "你是豆包，是由字节跳动开发的 AI 人工智能助手"},
         {"role": "user", "content": "目前排名前十的大模型有哪些？"},
